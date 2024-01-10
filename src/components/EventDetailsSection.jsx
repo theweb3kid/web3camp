@@ -20,7 +20,7 @@ const EventDetailsSection = () => {
       <div className="rounded-lg [background:linear-gradient(-61.43deg,_rgba(130,_92,_246,_0.09),_rgba(130,_92,_246,_0))] flex flex-col md:flex-row items-center justify-center pt-8 px-6 pb-6 relative gap-[24px] border-[1px] border-solid border-darkslateblue-200">
         <div className="shrink-0 flex flex-col md:flex-row items-center justify-start gap-[24px] z-[0]">
         <SpeakerCard
-              personName="/taufeeq@2x.png"
+              personName="/taufeeq.png"
               personTitle="Mr Taufeeq Riyaz"
               jobTitle="Founder"
               companyName="Tenacity"
@@ -85,8 +85,14 @@ const EventDetailsSection = () => {
           </div>
         </div>
       </div>
-      <div className="rounded-lg [background:linear-gradient(-61.43deg,_rgba(130,_92,_246,_0.09),_rgba(130,_92,_246,_0))] shrink-0 flex flex-col items-start justify-start pt-10 px-6 pb-6 relative gap-[24px] text-13xl text-white font-brush-script-mt border-[1px] border-solid border-darkslateblue-200">
-        <div className="shrink-0 flex flex-col md:flex-row items-start justify-start gap-[24px] z-[0]">
+      <div className="rounded-lg [background:linear-gradient(-61.43deg,_rgba(130,_92,_246,_0.09),_rgba(130,_92,_246,_0))]  flex flex-wrap flex-col items-start justify-start pt-10 px-6 pb-6 relative gap-[24px] text-13xl text-white font-brush-script-mt border-[1px] border-solid border-darkslateblue-200">
+        <div className=" flex flex-col md:flex-row items-start justify-start gap-[24px] z-[0]">
+          <CongratulationsCard
+            winnerImageName="/hyderabad-ideathon-winners-1@2x.png"
+            participantNames="Shreya Reddy, Anushka M"
+            propWidth="354px"
+            propHeight="237px"
+          />
           <CongratulationsCard
             winnerImageName="/hyderabad-ideathon-winners-1@2x.png"
             participantNames="Shreya Reddy, Anushka M"

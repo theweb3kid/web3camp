@@ -1,4 +1,6 @@
 import TeamCard from "./TeamCard";
+import React from 'react'
+import ReactPlayer from 'react-player'
 
 const TeamSection = () => {
   return (
@@ -45,9 +47,9 @@ const TeamSection = () => {
         </div>
         <div className=" flex flex-col md:flex-row items-center justify-center gap-[40px] text-29xl text-black">
           <div className="relative rounded-lg bg-white w-[400px] md:w-[680px]  h-[391px] overflow-hidden ">
-            <div className="absolute top-[calc(50%_-_30.5px)] left-[calc(50%_-_69px)] tracking-[0.01em] leading-[130%] font-light">
-              Video
-            </div>
+            
+            <ReactPlayer url='https://youtu.be/FExp9YuTzbY?si=bbUfxC7HyaihPY7z' width='100%'
+          height='100%' />
           </div>
           <div className=" rounded-lg bg-white overflow-hidden flex flex-col items-center justify-center py-16 px-10  w-[400px] md:w-[680px] gap-[16px] text-gray-100">
             <div className="relative tracking-[0.01em] leading-[130%] font-light inline-block md:w-[456px]">

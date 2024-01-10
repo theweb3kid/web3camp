@@ -8,6 +8,7 @@ const GetStartedSection = ({ scrollToTarget }) => {
         id="Home"
         className=" [background:linear-gradient(-43.03deg,_rgba(130,_92,_246,_0.49),_rgba(130,_92,_246,_0)),_#141238] w-full  flex flex-col items-center justify-center py-[54px]  box-border gap-[40px] text-left text-base text-white font-montserrat"
       >
+        
         <img
           className=" my-0 mx-[!important]   h-[673px] object-cover hidden z-[0]"
           alt=""

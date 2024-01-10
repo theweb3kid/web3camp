@@ -15,7 +15,7 @@ const CongratulationsCard = ({
   }, [propWidth, propHeight]);
 
   return (
-    <div className="self-stretch rounded-lg [background:linear-gradient(-38.8deg,_rgba(130,_92,_246,_0.49),_rgba(130,_92,_246,_0))] shrink-0 flex flex-col items-start justify-start p-4 gap-[8px] text-left text-13xl text-white font-brush-script-mt">
+    <div className="self-stretch rounded-lg [background:linear-gradient(-38.8deg,_rgba(130,_92,_246,_0.49),_rgba(130,_92,_246,_0))]  flex flex-col items-start justify-start p-4 gap-[8px] text-left text-13xl text-white font-brush-script-mt">
       <div className="self-stretch shrink-0 flex flex-row items-center justify-between">
         <i className="relative tracking-[0.03em] text-transparent !bg-clip-text [background:linear-gradient(79.19deg,_rgba(130,_92,_246,_0.49),_rgba(130,_92,_246,_0)),_#141238] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent]">
           Congratulations!

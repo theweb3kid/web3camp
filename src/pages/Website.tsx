@@ -6,6 +6,7 @@ import SponsorCard from "../components/SponsorCard";
 import StatsContainer from "../components/StatsContainer";
 import TeamSection from "../components/TeamSection";
 import TimelineForm from "../components/TimelineForm";
+import Frame from "../components/Frame";
 
 const Website = () => {
   const scrollToTarget = (id: string) => {
@@ -16,14 +17,14 @@ const Website = () => {
   };
   return (
     <div className="block w-full relative bg-white w-full text-left text-13xl text-gray-100 font-montserrat">
-
-      <GetStartedSection scrollToTarget={scrollToTarget} />
+      <Frame scrollToTarget={scrollToTarget}/>
+      {/* <GetStartedSection scrollToTarget={scrollToTarget} /> */}
       
       
      
       <TimelineForm />
       <Cities />
-      <TeamSection />
+     
       
       <div className="  bg-white w-full overflow-hidden flex flex-col  items-center justify-center py-16 px-[58px] box-border gap-[72px]">
         <div className="flex flex-col items-center justify-center gap-[40px]">
@@ -65,6 +66,7 @@ const Website = () => {
           </div>
         </div>
       </div>
+      <TeamSection />
       <FooterSection scrollToTarget={scrollToTarget} />
     </div>
   );
