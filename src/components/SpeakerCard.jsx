@@ -1,7 +1,7 @@
 import { useMemo } from "react";
 
 const SpeakerCard = ({
-  personName,
+  personImg,
   personTitle,
   jobTitle,
   companyName,
@@ -39,7 +39,7 @@ const SpeakerCard = ({
       <img
         className="relative w-16 h-16 object-cover"
         alt=""
-        src={personName}
+        src={personImg}
         style={adityaIconStyle}
       />
       <div

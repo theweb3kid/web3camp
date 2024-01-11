@@ -1,7 +1,7 @@
 import { useMemo } from "react";
 import { useNavigate } from "react-router-dom";
 
-const City = ({ image, cityName, date, propWidth, Registrations ,online}) => {
+const City = ({ image, cityName, date, propWidth, Registrations ,online,cityID}) => {
   const imageIconStyle = useMemo(() => {
     return {
       width: propWidth,
@@ -10,8 +10,8 @@ const City = ({ image, cityName, date, propWidth, Registrations ,online}) => {
   const navigate = useNavigate();
   return (
     <div
-      onClick={() => navigate("/eventDetails")}
-      className="rounded-3xl bg-white box-border w-auto overflow-hidden  flex flex-wrap flex-col items-center justify-start relative text-left text-base text-gray-100 font-montserrat border-[1px] border-solid border-gray-200"
+      onClick={() => navigate(`/eventDetails/${cityID}`)}
+      className="cursor-pointer  rounded-3xl bg-white box-border md:max-w-[330px] w-auto overflow-hidden  flex flex-wrap flex-col items-center justify-start relative text-left text-base text-gray-100 font-montserrat border-[1px] border-solid border-gray-200"
     >
       <img
         className="relative w-[330px] h-[223px] object-cover z-[0]"

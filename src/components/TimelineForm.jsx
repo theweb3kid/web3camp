@@ -1,9 +1,12 @@
+import { useState } from "react";
 import TimeLine from "./TimeLine";
 
 const TimelineForm = () => {
+  const [dayone, setdayone] = useState(true)
   return (
-    <div  id="Timeline" className="  [background:linear-gradient(-69.18deg,_rgba(130,_92,_246,_0.49),_rgba(130,_92,_246,_0)),_#141238] w-auto  flex  flex-col items-center justify-start py-16 px-28 box-border gap-[40px] text-left text-13xl text-white font-montserrat">
-      <div className="flex flex-col items-start justify-center gap-[24px] md:overflow-hidden overflow-x-auto overflow-y-hidden w-[310px] md:w-auto">
+    <div  id="Timeline" className="  [background:linear-gradient(-69.18deg,_rgba(130,_92,_246,_0.49),_rgba(130,_92,_246,_0)),_#141238] w-auto  flex  flex-col items-normal justify-start py-16  box-border gap-[40px] text-left text-13xl text-white font-montserrat">
+      <div className="mx-auto md:w-[1440px] w-auto">
+      <div className="flex flex-col items-start justify-center gap-[24px]  overflow-x-auto overflow-y-hidden w-[310px] md:w-auto">
         <div className="relative tracking-[0.03em] font-semibold ">Timeline</div>
         <div className="relative w-[1160px] h-[173px] text-sm text-darkslateblue-200 font-poppins">
           <div className="absolute top-[0px] left-[34px] flex flex-row items-start justify-start gap-[48px]">
@@ -63,7 +66,7 @@ const TimelineForm = () => {
           </div>
         </div>
       </div>
-      <div id="Curriculum" className="flex flex-col items-start justify-start gap-[40px]">
+      <div id="Curriculum" className="flex flex-col items-start justify-start overflow-x-auto overflow-y-hidden gap-[40px]">
         <div className="md:w-[1029px]  flex flex-row items-start justify-start">
           <div className="relative tracking-[0.03em] font-semibold">
             Curriculum
@@ -71,7 +74,7 @@ const TimelineForm = () => {
         </div>
         <div className="md:w-[833px]  flex flex-row items-start justify-start text-sm text-darkslateblue-100 font-poppins">
           <div className="rounded-lg box-border md:w-[833px] flex flex-col items-start justify-start pt-8 px-6 pb-6 relative gap-[15px] border-[1px] border-solid border-white">
-            <div className="self-stretch flex flex-col md:flex-row items-start justify-start gap-[15px] z-[0]">
+           {dayone ? <div className="self-stretch flex flex-col md:flex-row items-start justify-start gap-[15px] z-[0]">
               <div className="flex-1 flex flex-col items-start justify-start gap-[15px]">
                 <div className="self-stretch rounded-lg bg-white box-border h-[58px] flex flex-col items-start justify-center py-2 px-4 border-[1px] border-solid border-white">
                   <div className="relative tracking-[0.03em] font-semibold">
@@ -126,20 +129,47 @@ const TimelineForm = () => {
                   </div>
                 </div>
               </div>
-            </div>
-            <div className="my-0 mx-[!important] absolute top-[-20px] left-[24px] rounded-lg [background:linear-gradient(-30.63deg,_rgba(130,_92,_246,_0.49),_rgba(130,_92,_246,_0)),_#fff] w-[180px] flex flex-row items-center justify-center py-2 px-4 box-border z-[1]">
+            </div>:<div className="self-stretch flex flex-col md:flex-row items-start justify-start gap-[15px] z-[0] text-left text-sm text-darkslateblue font-poppins">
+      <div className="flex flex-col items-start justify-start gap-[15px]">
+        <div className="rounded-lg bg-white box-border h-[58px] flex flex-col items-start justify-center py-2 px-4 border-[1px] border-solid border-white">
+          <div className="relative tracking-[0.03em] font-semibold inline-block w-[360px]">
+            Importance to NFTs and Intro Blockchain Gaming: 30 Min
+          </div>
+        </div>
+        <div className="rounded-lg bg-white flex flex-col items-start justify-center py-2 px-4 border-[1px] border-solid border-white">
+          <div className="relative tracking-[0.03em] font-semibold inline-block w-[360px]">
+            Modular Blockchain and becoming a node operator, by Mayur Chougule ,
+            Founder of Vistara Labs
+          </div>
+        </div>
+      </div>
+      <div className="flex-1 flex flex-col items-start justify-start gap-[15px]">
+        <div className="self-stretch rounded-lg bg-white box-border h-[58px] flex flex-col items-start justify-center py-2 px-4 border-[1px] border-solid border-white">
+          <div className="relative tracking-[0.03em] font-semibold inline-block w-[360px]">
+            Build Your NFT Marketplace from Scratch OR Build a Blockchain Game
+            from Scratch: 120 Min
+          </div>
+        </div>
+        <div className="self-stretch rounded-lg bg-white box-border h-[79px] flex flex-col items-start justify-center py-2 px-4 border-[1px] border-solid border-white">
+          <div className="relative tracking-[0.03em] font-semibold inline-block w-[264px]">
+            Outro by Anubha Maneshwar, Founder of GirlScript Foundation
+          </div>
+        </div>
+      </div>
+    </div>}
+            <div onClick={()=>setdayone(!dayone)} className={`cursor-pointer my-0 mx-[!important] absolute top-[-20px] left-[24px] rounded-lg  w-[180px] flex flex-row items-center justify-center py-2 px-4 box-border z-[1] ${dayone ? `[background:linear-gradient(-30.63deg,_rgba(130,_92,_246,_0.49),_rgba(130,_92,_246,_0)),_#fff]`:`bg-white`}`}>
               <div className="relative tracking-[0.03em] font-semibold">
                 Day 01
               </div>
             </div>
-            <div className="my-0 mx-[!important] absolute top-[-20px] left-[228px] rounded-lg bg-white box-border w-[180px] flex flex-row items-center justify-center py-2 px-4 z-[2] border-[1px] border-solid border-white">
+            <div onClick={()=>setdayone(!dayone)} className={`cursor-pointer my-0 mx-[!important] absolute top-[-20px] left-[228px] rounded-lg ${!dayone ? `[background:linear-gradient(-30.63deg,_rgba(130,_92,_246,_0.49),_rgba(130,_92,_246,_0)),_#fff]`:`bg-white`} box-border w-[180px] flex flex-row items-center justify-center py-2 px-4 z-[2] border-[1px] border-solid border-white`}>
               <div className="relative tracking-[0.03em] font-semibold">
                 Day 02
               </div>
             </div>
             <div className="relative box-border md:w-[399px] h-px z-[3] border-t-[1px] border-solid border-white" />
             <div className="rounded-lg box-border md:w-[180px] flex flex-row items-center justify-center py-2 px-4 z-[4] text-white border-[1px] border-solid border-white">
-              <div className="relative tracking-[0.03em] font-semibold">
+              <div className="cursor-pointer relative tracking-[0.03em] font-semibold">
                 Optional
               </div>
             </div>
@@ -153,7 +183,7 @@ const TimelineForm = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div></div>
     </div>
   );
 };

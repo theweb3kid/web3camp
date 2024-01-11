@@ -13,13 +13,13 @@ const TeamSection = () => {
         </div>
         <div className=" flex flex-col md:flex-row  items-center justify-center gap-[24px] text-sm font-poppins">
           <TeamCard
-            mohitImg="/mohit-img@2x.png"
+            mohitImg="/mohit-img.png"
             mohitVaru="Mohit Varu"
             managingDirector="Managing Director"
             girlscriptFoundation="Girlscript Foundation"
           />
           <TeamCard
-            mohitImg="/ojas-image@2x.png"
+            mohitImg="/ojas-image.png"
             mohitVaru="Ojas Rajankar"
             managingDirector="Web3Camp"
             girlscriptFoundation="Mentoring Head"

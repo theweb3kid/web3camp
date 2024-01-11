@@ -48,7 +48,7 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<Website />} />
-      <Route path="/eventDetails" element={<EventDetailsSection />} />
+      <Route path="/eventDetails/:cityID" element={<EventDetailsSection />} />
     </Routes>
   );
 }

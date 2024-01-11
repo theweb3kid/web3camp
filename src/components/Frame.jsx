@@ -113,10 +113,10 @@ const Frame = ({ scrollToTarget }) => {
               </b>
             </div>
             <div className="flex flex flex-col  md:flex-row items-start justify-center gap-[24px] text-lg font-open-sans">
-              <div className="rounded-lg bg-mediumslateblue-100 shrink-0 flex flex-row items-start justify-start py-4 px-6">
+              <div className="cursor-pointer rounded-lg bg-mediumslateblue-100 shrink-0 flex flex-row items-start justify-start py-4 px-6">
                 <b className="relative tracking-[0.03em]">Attend Online</b>
               </div>
-              <div className="rounded-lg bg-white shrink-0 flex flex-row items-start justify-start py-4 px-6 text-mediumslateblue-100">
+              <div className="cursor-pointer  rounded-lg bg-white shrink-0 flex flex-row items-start justify-start py-4 px-6 text-mediumslateblue-100">
                 <b className="relative tracking-[0.03em]">Sponsor Us</b>
               </div>
             </div>

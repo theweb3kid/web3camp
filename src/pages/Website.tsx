@@ -7,6 +7,8 @@ import StatsContainer from "../components/StatsContainer";
 import TeamSection from "../components/TeamSection";
 import TimelineForm from "../components/TimelineForm";
 import Frame from "../components/Frame";
+import Glimpses from "../components/Glimpses";
+import Testimonials from "../components/Testimonials";
 
 const Website = () => {
   const scrollToTarget = (id: string) => {
@@ -20,7 +22,7 @@ const Website = () => {
       <Frame scrollToTarget={scrollToTarget}/>
       {/* <GetStartedSection scrollToTarget={scrollToTarget} /> */}
       
-      
+      <Glimpses/>
      
       <TimelineForm />
       <Cities />
@@ -67,6 +69,8 @@ const Website = () => {
         </div>
       </div>
       <TeamSection />
+      
+    <Testimonials/>
       <FooterSection scrollToTarget={scrollToTarget} />
     </div>
   );
