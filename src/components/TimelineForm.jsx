@@ -4,7 +4,7 @@ import TimeLine from "./TimeLine";
 const TimelineForm = () => {
   const [dayone, setdayone] = useState(true)
   return (
-    <div  id="Timeline" className="  [background:linear-gradient(-69.18deg,_rgba(130,_92,_246,_0.49),_rgba(130,_92,_246,_0)),_#141238] w-auto  flex  flex-col items-normal justify-start py-16  box-border gap-[40px] text-left text-13xl text-white font-montserrat">
+    <div  id="Timeline" className="  [background:linear-gradient(-69.18deg,_rgba(130,_92,_246,_0.49),_rgba(130,_92,_246,_0)),_#141238] w-auto  flex  flex-col items-normal justify-start py-16 px-28 box-border gap-[40px] text-left text-13xl text-white font-montserrat">
       <div className="mx-auto md:w-[1440px] w-auto">
       <div className="flex flex-col items-start justify-center gap-[24px]  overflow-x-auto overflow-y-hidden w-[310px] md:w-auto">
         <div className="relative tracking-[0.03em] font-semibold ">Timeline</div>

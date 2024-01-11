@@ -156,13 +156,13 @@ const Frame = ({ scrollToTarget }) => {
           />
         </div>
       </div>
-      <div className=" relative bg-gradient-to-b from-rgba(130,92,246,0.09) to-rgba(130,92,246,0) md:bg-white w-[400px] md:w-full h-auto md:min-h-[1151px] overflow-hidden flex-wrap flex flex-col items-center justify-center md:pt-[120px] md:px-4 lg:px-28 pb-20 pt-4 mx-auto box-border">
+      <div className=" relative bg-gradient-to-b from-rgba(130,92,246,0.09) to-rgba(130,92,246,0) md:bg-white w-[400px] md:w-full h-auto md:min-h-[1151px] overflow-hidden flex-wrap flex flex-col items-center justify-center  md:px-4 lg:px-28 pb-20 pt-[120px] mx-auto box-border">
         <div
           id="Web3Camp"
-          className="flex flex-col items-centerflex-wrap justify-start md:justify-between gap-8 w-full max-w-[1210px] mx-auto"
+          className="flex flex-col items-centerflex-wrap justify-start md:justify-between gap-8 w-full max-w-[1440px] mx-auto "
         >
-          <div className="flex flex-col items-start justify-start gap-8 md:flex-row md:items-center md:justify-between">
-            <div className="flex flex-col items-start justify-start gap-4 md:max-w-[480px]">
+          <div className="flex flex-col flex-wrap items-start justify-start gap-8 md:flex-row md:items-center ">
+            <div className="flex flex-col items-start justify-start gap-4 md:max-w-[430px] h-auto">
               <div className="self-stretch relative tracking-[0.03em] font-semibold">
                 What is Web3Camp?
               </div>

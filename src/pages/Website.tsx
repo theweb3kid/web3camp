@@ -28,14 +28,14 @@ const Website = () => {
       <Cities />
      
       
-      <div className="  bg-white w-full overflow-hidden flex flex-col  items-center justify-center py-16 px-[58px] box-border gap-[72px]">
-        <div className="flex flex-col items-center justify-center gap-[40px]">
+      <div className="  bg-white w-full overflow-hidden flex flex-wrap flex-col  items-center justify-center py-16 px-[58px] box-border gap-[72px]">
+        <div className="flex flex-wrap flex-col items-center justify-center gap-[40px]">
           <div className=" flex flex-row items-center justify-center">
             <div className="relative tracking-[0.03em] font-semibold">
               Gold Sponsors
             </div>
           </div>
-          <div className=" flex flex-col md:flex-row items-center justify-center gap-[72px]">
+          <div className=" flex flex-wrap flex-col md:flex-row items-center justify-center gap-[72px]">
             <img
               className="relative w-[326px] md:w-[526px] md:h-36 object-cover"
               alt=""

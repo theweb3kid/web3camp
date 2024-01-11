@@ -99,7 +99,7 @@ console.log(cityDetails,cityData)
        
             
       </div>}
-      <div onClick={()=> navigate(-1)} className="relative rounded-3xl [background:linear-gradient(-35.95deg,_rgba(130,_92,_246,_0.32),_rgba(130,_92,_246,_0)),_#fff] box-border w-full h-[68px]   text-center text-5xl border-[1px] border-solid border-gray-300">
+      <div onClick={()=> navigate(-1)} className="cursor-pointer relative rounded-3xl [background:linear-gradient(-35.95deg,_rgba(130,_92,_246,_0.32),_rgba(130,_92,_246,_0)),_#fff] box-border w-full h-[68px]   text-center text-5xl border-[1px] border-solid border-gray-300">
             <div className=" rounded-lg shrink-0 flex flex-row items-center justify-center py-2 px-4">
               <div className="relative tracking-[0.03em]  font-medium">
                 Go back

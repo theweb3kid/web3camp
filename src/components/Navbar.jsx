@@ -2,7 +2,7 @@ import React from 'react';
 
 const Navbar = ({scrollToTarget}) => {
   return (
-    <div className="rounded-lg bg-white w-auto flex flex-col flex-wrap md:flex-row items-center justify-between py-2 px-4 box-border z-[2] text-gray-100">
+    <div className="rounded-lg bg-white w-auto flex flex-col flex-wrap md:flex-row items-center justify-between py-2 px-2 box-border z-[2] text-gray-100">
     <img onClick={()=>scrollToTarget('Home')}
       className="cursor-pointer relative w-[187px] h-[33px] object-cover"
       alt=""

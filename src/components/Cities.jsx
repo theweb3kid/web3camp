@@ -244,7 +244,7 @@ export const cityData = [
 const Cities = () => {
   return (
     <div className=" flex flex-col items-start justify-start p-2 text-left text-13xl text-gray-100 font-montserrat ">
-      <div className="mx-auto w-auto">
+      <div className="max-w-[1440px] mx-auto">
     <div className=" overflow-hidden flex flex-col items-start  justify-start py-16 md:px-28 box-border gap-[40px] ">
     <div className="flex flex-row  items-center justify-center">
             <div className="relative tracking-[0.03em] font-semibold">Cities</div>
