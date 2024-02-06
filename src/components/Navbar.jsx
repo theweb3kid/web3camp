@@ -32,12 +32,9 @@ const Navbar = ({scrollToTarget}) => {
       </div>
     </div>
     <div className=" flex shrink-0 flex-col md:flex-row items-start justify-center gap-[16px] text-sm text-white font-open-sans">
-      <div className="cursor-pointer rounded-lg bg-mediumslateblue-100 shrink-0 flex flex-row items-start justify-start py-3 px-4">
-        <b className="relative tracking-[0.03em]">Register now</b>
-      </div>
-      <div className="cursor-pointer rounded-lg bg-white shrink-0 flex flex-row items-start justify-start py-3 px-4 text-mediumslateblue-100 border-[1px] border-solid border-mediumslateblue-100">
+      <a href='mailto:web3camp@girlscript.tech' className="cursor-pointer no-underline rounded-lg bg-white shrink-0 flex flex-row items-start justify-start py-3 px-4 text-mediumslateblue-100 border-[1px] border-solid border-mediumslateblue-100">
         <b className="relative tracking-[0.03em]">Partner with us</b>
-      </div>
+      </a>
     </div>
   </div>
   );

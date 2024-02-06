@@ -35,14 +35,14 @@ const CongratulationsCard = ({
             src={winnerImageName}
           />
           <div className="w-[313px] flex-col items-start justify-start text-sm text-gray font-poppins">
-            <div className=" tracking-[0.03em] font-semibold">
+            <div className=" tracking-[0.03em] font-semibold text-darkslateblue-200 font-poppins">
               {participantNames}
             </div>
           </div>
         </div>
       </div>
       <div className="my-0 mx-[!important] absolute top-[-24px] left-[24px] rounded-lg [background:linear-gradient(-71.1deg,_#f7f5fe,_rgba(255,_255,_255))] shrink-0 flex flex-col items-start justify-start py-2 px-4 z-[1] text-5xl text-gray font-montserrat border-[1px] border-solid border-darkslateblue-200">
-        <div className="relative tracking-[0.03em] font-semibold">
+        <div className="relative tracking-[0.03em] font-semibold text-darkslateblue-200 font-poppins">
           Ideathon Winners
         </div>
       </div>

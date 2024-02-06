@@ -1,7 +1,7 @@
  const FooterSection = ({scrollToTarget}) => {
     return (<>
      
-      <div className=" top-[5334px]  [background:linear-gradient(-69.18deg,_rgba(130,_92,_246,_0.49),_rgba(130,_92,_246,_0)),_#141238] w-full overflow-hidden flex flex-wrap md:flex-row flex-col items-center justify-center pt-16 px-[20px] pb-6 box-border gap-[327px] text-left text-base text-gray-500 font-montserrat">
+      <div className=" top-[5334px]  [background:linear-gradient(-69.18deg,_rgba(130,_92,_246,_0.49),_rgba(130,_92,_246,_0)),_#141238] w-full overflow-hidden flex flex-wrap md:flex-row flex-col items-center justify-center pt-16 px-28 pb-6 box-border gap-[327px] text-left text-base text-gray-500 font-montserrat">
       <div className=" flex flex-col items-start justify-start gap-[32px] text-xs text-gray-400">
          <div className="flex flex-col items-start justify-start gap-[8px]">
            <div className="flex flex-col items-start justify-start gap-[8px]">
