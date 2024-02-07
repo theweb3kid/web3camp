@@ -1,13 +1,13 @@
 const Testimonials = () => {
   return (
-    <div className="flex flex-col items-center flex-wrap justify-start md:justify-between gap-8 px-28 w-full py-16 max-w-[1440px] mx-auto ">
+    <div className="flex flex-col items-center flex-wrap justify-start md:justify-between gap-8 md:px-28 px-4 w-full py-16 max-w-[1440px] mx-auto ">
       <div className="flex flex-col flex-wrap items-start justify-start gap-8 md:flex-row md:items-center ">
-        <div className="flex flex-col items-start justify-start gap-4 md:max-w-[430px] h-auto">
-          <div className="self-stretch relative tracking-[0.03em] font-semibold">
+      <div className="flex flex-col items-start justify-start gap-4 md:w-[530px] w-[300px] h-auto">
+        <div className="relative tracking-[0.03em] font-semibold">
             Testimonials
           </div>
         </div>
-        <div className="relative w-[1216px] h-[776px] overflow-x-auto overflow-y-hidden">
+        <div className="relative md:w-[1216px] w-[300px] h-[776px] overflow-x-auto overflow-y-hidden">
           <div className="absolute top-[0px] left-[0px] flex flex-col items-start justify-start gap-[40px]">
             <img
               className="relative rounded-lg w-[380px] h-[334px] object-cover"

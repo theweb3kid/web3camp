@@ -8,13 +8,13 @@ const TimelineForm = () => {
       id="Timeline"
       className="[background:linear-gradient(-69.18deg,_rgba(130,_92,_246,_0.49),_rgba(130,_92,_246,_0)),_#141238] flex flex-col w-full flex-wrap items-center justify-start p-2 text-left text-13xl px-4  text-white font-montserrat  "
     >
-      <div className=" flex flex-col items-center flex-wrap justify-start md:justify-between gap-8 px-28 w-full max-w-[1440px] mx-auto py-16 text-white font-montserrat">
+      <div className=" flex flex-col items-center flex-wrap justify-start md:justify-between gap-8 md:px-28 px-4 w-full max-w-[1440px] mx-auto py-16 text-white font-montserrat">
         <div className="flex flex-col flex-wrap items-start justify-start gap-8 md:flex-row md:items-center ">
           <div className="flex flex-col items-start justify-start gap-4 md:max-w-[430px] h-auto">
             <div className="self-stretch relative tracking-[0.03em] font-semibold">
               Timeline
             </div>
-            <div className="relative w-[1160px] h-[173px] text-sm text-darkslateblue-200 font-poppins">
+            <div className="relative md:w-[1160px] h-[173px] sm:w-[520px] w-[320px] md:overflow-x-hidden overflow-x-auto  overflow-y-hidden text-sm text-darkslateblue-200 font-poppins">
               <div className="absolute top-[0px] left-[34px] flex flex-row items-start justify-start gap-[48px]">
                 <TimeLine
                   eventDate="Sep 1, 2023"
@@ -74,7 +74,7 @@ const TimelineForm = () => {
           </div>
           <div
             id="Curriculum"
-            className="flex flex-col items-start justify-start overflow-x-auto overflow-y-hidden gap-[40px]"
+            className="flex flex-col items-start justify-start md:w-[833px]  sm:w-[520px] w-[320px] md:overflow-x-hidden  overflow-x-auto  overflow-y-hidden gap-[40px]"
           >
             <div className="md:w-[1029px]  flex flex-row items-start justify-start">
               <div className="relative tracking-[0.03em] font-semibold">

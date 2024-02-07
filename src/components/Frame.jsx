@@ -153,7 +153,7 @@ const Frame = ({ scrollToTarget }) => {
           />
         </div>
       </div>
-      <div className=" relative bg-gradient-to-b from-rgba(130,92,246,0.09) to-rgba(130,92,246,0) md:bg-white w-[400px] md:w-full h-auto md:min-h-[1151px] overflow-hidden flex-wrap flex flex-col items-center justify-center  px-4 pb-20 pt-[120px] mx-auto box-border">
+      <div className=" relative bg-gradient-to-b from-rgba(130,92,246,0.09) to-rgba(130,92,246,0) md:bg-white  md:w-full h-auto md:min-h-[1151px] overflow-hidden flex-wrap flex flex-col items-center justify-center  md:px-28 px-4 pb-20 pt-[120px] mx-auto box-border">
         <div
           id="Web3Camp"
           className="flex flex-col items-center justify-start md:justify-between gap-8 w-full max-w-[1440px] mx-auto"

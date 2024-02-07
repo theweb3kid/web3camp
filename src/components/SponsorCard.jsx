@@ -48,7 +48,7 @@ const SponsorCard = () => {
       //     </div>
       //   </div>
       // </div>
-      <div className="self-stretch flex flex-wrap flex-col items-start justify-start gap-[24px] px-28 text-left text-13xl text-gray-100 font-montserrat">
+      <div className="self-stretch flex flex-wrap flex-col items-start justify-start gap-[24px] px-6 text-left text-13xl text-gray-100 font-montserrat">
       <div className="relative tracking-[0.03em] font-semibold">
         Web3Camp 2022 Sponsors
       </div>

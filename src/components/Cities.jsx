@@ -420,7 +420,7 @@ export const cityData = [
 const Cities = () => {
   return (
    
-    <div className="flex flex-col items-center flex-wrap justify-start md:justify-between gap-8 px-28 w-full max-w-[1440px] mx-auto ">
+    <div className="flex flex-col items-center flex-wrap justify-start md:justify-between gap-8 md:px-28 px-4 w-full max-w-[1440px] mx-auto ">
     <div className="flex flex-col flex-wrap items-start justify-start gap-8 py-16 md:flex-row md:items-center ">
       <div className="flex flex-col items-start justify-start gap-4 md:max-w-[430px] h-auto">
         <div className="self-stretch relative tracking-[0.03em] font-semibold">
@@ -451,7 +451,7 @@ const Cities = () => {
                 </div>
               </div>
             ) : (
-              <div className="relative rounded-3xl [background:linear-gradient(-35.95deg,_rgba(130,_92,_246,_0.32),_rgba(130,_92,_246,_0)),_#fff] box-border w-[1060px] h-[68px] overflow-hidden shrink-0 text-center text-5xl border-[1px] border-solid border-gray-300">
+              <div className="relative rounded-3xl [background:linear-gradient(-35.95deg,_rgba(130,_92,_246,_0.32),_rgba(130,_92,_246,_0)),_#fff] box-border md:w-[1060px] w-[340px] md:h-[68px]  h-[110px] overflow-hidden  text-center text-5xl border-[1px] border-solid border-gray-300">
                 <div className="absolute top-[calc(50%_-_22.5px)] left-[calc(50%_-_172.5px)] rounded-lg shrink-0 flex flex-row items-center justify-center py-2 px-4">
                   <div className="relative tracking-[0.03em] font-medium">
                     More cities coming soon

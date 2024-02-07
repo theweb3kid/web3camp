@@ -1,8 +1,8 @@
  const FooterSection = ({scrollToTarget}) => {
     return (<>
      
-      <div className=" top-[5334px]  [background:linear-gradient(-69.18deg,_rgba(130,_92,_246,_0.49),_rgba(130,_92,_246,_0)),_#141238] w-full overflow-hidden flex flex-wrap md:flex-row flex-col items-center justify-center pt-16 px-28 pb-6 box-border gap-[327px] text-left text-base text-gray-500 font-montserrat">
-      <div className=" flex flex-col items-start justify-start gap-[32px] text-xs text-gray-400">
+      <div className=" top-[5334px]  [background:linear-gradient(-69.18deg,_rgba(130,_92,_246,_0.49),_rgba(130,_92,_246,_0)),_#141238] w-full overflow-hidden flex flex-wrap md:flex-row flex-col items-center justify-center pt-16 md:px-28 px-6 pb-6 box-border gap-[327px] text-left text-base text-gray-500 font-montserrat">
+      <div className=" flex flex-col flex-wrap items-start justify-start gap-[32px] text-xs text-gray-400">
          <div className="flex flex-col items-start justify-start gap-[8px]">
            <div className="flex flex-col items-start justify-start gap-[8px]">
              <img
@@ -25,8 +25,8 @@
              </div>
            </div>
          </div>
-         <div className="self-stretch flex flex-col items-start justify-start text-xl">
-           <div className="flex flex-row items-start justify-start gap-[48px]">
+         <div className="flex-wrap flex flex-col items-start justify-start text-xl">
+           <div className="flex flex-wrap flex-row items-start justify-start gap-[48px]">
              <div className="flex flex-col items-start justify-start gap-[16px]">
                <div className="relative tracking-[-0.01em] leading-[110%] font-medium">
                  Contact Us

@@ -2,7 +2,7 @@ const StatsContainer = () => {
     return (
       // <div className="self-stretch flex flex-wrap flex-col items-center  justify-start gap-[24px] text-left text-13xl text-gray-100 font-montserrat">
       //   <div className="relative tracking-[0.03em] font-semibold">
-      <div className="self-stretch flex flex-wrap flex-col items-start justify-start gap-[24px] px-28 py-16 text-left text-13xl text-gray-100 font-montserrat">
+      <div className="self-stretch flex flex-wrap flex-col items-start justify-start gap-[24px] px-6  py-16 text-left text-13xl text-gray-100 font-montserrat">
       <div className="self-stretch relative tracking-[0.03em] font-semibold">
           Web3Camp 2022 Stats
         </div>

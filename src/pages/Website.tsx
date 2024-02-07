@@ -28,7 +28,7 @@ const Website = () => {
       <Cities />
      
       
-      <div className="  bg-white w-full overflow-hidden flex flex-wrap flex-col  items-center justify-center py-16 px-[58px] box-border gap-[72px]">
+      <div className="  bg-white w-full overflow-hidden flex flex-wrap flex-col  items-center justify-center py-16 md:px-28 px-4 box-border gap-[72px]">
         <div className="flex flex-wrap flex-col items-center justify-center gap-[40px]">
           <div className=" flex flex-row items-center justify-center">
             <div className="relative tracking-[0.03em] font-semibold">
@@ -37,12 +37,12 @@ const Website = () => {
           </div>
           <div className=" flex flex-wrap flex-col md:flex-row items-center justify-center gap-[72px]">
             <img
-              className="relative w-[326px] md:w-[526px] md:h-36 object-cover"
+              className="relative w-[226px] md:w-[526px]  object-cover"
               alt=""
               src="/vistara-logo@2x.png"
             />
             <img
-              className="relative w-[454px] h-[131px] object-cover"
+              className="relative w-[226px] md:w-[454px]  object-cover"
               alt=""
               src="/flipster-logo-1@2x.png"
             />
